@@ -1,4 +1,4 @@
-# LabVIEW Library Rpository Template
+# LabVIEW Library Repository Template
 
 This is a template repository for LabVIEW libraries. Source code from the source directory can be built into VIPM packages using the [build specification](package/__LIBRARY_NAME__.vipb).
 
