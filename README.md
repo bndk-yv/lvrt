@@ -1,12 +1,12 @@
-# LabVIEW Library Repository Template
+# LabVIEW Repository Template
 
-This is a template repository for LabVIEW libraries. Source code from the source directory can be built into VIPM packages using the [build specification](package/__LIBRARY_NAME__.vipb).
+This is a template repository for LabVIEW libraries. Source code from the source directory can be built into VIPM packages using the [build specification](./package/__LIBRARY_NAME__.vipb).
 
 #### Usage
 
 - Clone this repository
 
-- Rename [.lvproj](__LIBRARY_NAME__.lvproj) and [.vipb](package/__LIBRARY_NAME__.vipb) files and update build specification metadata (product name, company name, author name, ...)
+- Rename [.lvproj](./__LIBRARY_NAME__.lvproj) and [.vipb](./package/__LIBRARY_NAME__.vipb) files and update build specification metadata (product name, company name, author name, ...)
 
 - Add library source code to /source
 
@@ -14,7 +14,7 @@ This is a template repository for LabVIEW libraries. Source code from the source
 
 - Consider adding some documentation in the /doc folder.
 
-- [Gather Images.vi](doc/img/Gather Images.vi) saves images of your VIs and controls. These images can be found in the /doc/img folder under the same relative directory as in the project's main folder:
+- [Gather Images.vi](./doc/img/Gather Images.vi) saves images of your VIs and controls. These images can be found in the /doc/img folder under the same relative directory as in the project's main folder:
 > `/source/...path...to.../Source VI.vi` becomes `/doc/img/...path...to.../Source VI.vi.png`
 
 #### Requirements
